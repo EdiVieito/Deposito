@@ -8,6 +8,7 @@ public class Main {
 	private static void operativa_cuenta() {
 		CCuenta miCuenta;
         double saldoActual;
+        float cantidad;
 
         miCuenta = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
         saldoActual = miCuenta.estado();
